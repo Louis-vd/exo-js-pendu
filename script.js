@@ -14,7 +14,7 @@ document.getElementById("run").addEventListener("click", ()=>{
     
     let message = prompt('Cherche une lettre');
     message = message.toUpperCase();
-    if (message.length > 1){
+    if (message.length > 1) {
         window.alert("Attention, une seul lettre");
     }else{
         guessLetter(message);
