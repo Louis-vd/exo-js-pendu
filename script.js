@@ -21,7 +21,7 @@ document.getElementById("run").addEventListener("click", ()=>{
         window.alert(lettre);
     }
     if(bonjour.join('') == lettre.join('')){
-        alert("Bien joué, tu as trouvé le mot !!!")
+        alert("Bien joué, tu as trouvé le mot 'BONJOUR' !!!")
     }
 });
 
